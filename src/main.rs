@@ -106,7 +106,7 @@ async fn main() {
     let mut r_b_slider = Slider::new("Semi-minor axis (r_b)", screen_width() / 4.0, 10.0, screen_width(), 20.0, 80.0);
     let mut n_slider = Slider::new("Roundedness (n)", 4.0, 0.1, 12.0, 20.0, 120.0);
     let mut thickness_slider = Slider::new("Thickness", 2.0, 0.1, 40.0, 20.0, 160.0);
-    let mut steps_slider = Slider::new("Steps", 25.0, 1.0, 100.0, 20.0, 200.0);
+    let mut steps_slider = Slider::new("Steps", 25.0, 1.0, 50.0, 20.0, 200.0);
     let mut rotation_slider = Slider::new("Rotation", 0.0, 0.0, 180.0, 20.0, 240.0);
     
     let mut fill = false; // whether to fill the shape or just draw the outline
